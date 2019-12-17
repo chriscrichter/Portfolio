@@ -1,0 +1,67 @@
+<style>
+
+body {
+  background-color: brown;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center; 
+}
+/*
+h2, h3, p {
+  color: yellow;
+}
+
+p {
+    color: green;
+  }
+  
+*/
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.tiny {
+    font-size: 14px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+.helv {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.multi {
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+img {
+    border:5px solid orange;
+    }
+    
+.all {
+  color: black;
+}
+
+</style>
