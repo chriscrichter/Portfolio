@@ -1,26 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en-us">
 <head>
-
-    <title>My Info</title>
-    <meta name="keywords" content="html, second site">
+	<!-- Character set -->
+    <meta charset="UTF-8">
+	<title>My Portfolio</title>
+	<!-- To Link CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- To Link Google Fonts -->
+	<link rel="stylesheet" type="text/css"
+	      href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-    <h1>Student Bio</h1>
 
-    <h2>Chris Richter</h2>
-<img src="http://www.bsr.org/images/thumbnails/bsr-new-york-daytime.jpg" alt="New York City">
-<br>
+	<div class="header-container">
+		<header>Chris Richter</header>
 
+		<nav>
+			<ul>
+				<li class="border"><a href="index.html">About</a></li>
+				<li class="border"><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div>	
 
-<h2>Contact Info</h2>
+	<div class="main-container">
+		<section id="project-portfolio">
+			<h2>Portfolio</h2>
 
+			<!-- Using single placeholder image for now. -->
+			<ul class="project">
+				<li class="box"><div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Hangman</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">RPG Game</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Trivia Game</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Rutgers Info Widget</span></div></li>
+				<li class="box"><div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Rock Paper Scissors</span></div></li>
+			</ul>
+    	</section>
+    	
+    	<section id="social-links">
+      		<h3>Connect with Me</h3>
+      		<ul>
+        		<li><a href="https://github.com/chriscrichter" target="_blank"><img class="icon" src="assets/images/github-128.png" alt="GitHub Profile"></a></li>
+        		<li><a href="https://www.linkedin.com/in/chris-richter-32932a186" target="_blank"><img class="icon" src="assets/images/square-linkedin-128.png" alt="LinkedIn Profile"></a></li>
+        		<li><a href="https://stackoverflow.com/users/12327321/crichter" target="_blank"><img class="icon" src="assets/images/stackoverflow.png" alt="StackOverflow Profile"></a></li>
+      		</ul>
+    	</section>
+	</div>
 
-<ul>
-    <li><b>Email:</b> <a href="mailto:chris_richter@outlook.com">chris_richter@outlook.com</a></li>
-    <li>Github: <a href="https://github.com/chriscrichter/MyRepo">https://github.com/chriscrichter/MyRepo</a></li>
-    <li>Portfolio: coming soon</li>
-</ul>
+	<footer>&#64; Copyright 2019 Chris Richter</footer>
 </body>
 </html>
