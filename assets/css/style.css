@@ -1,16 +1,13 @@
-/* So padding and border no longer increase width. */
 * {
   box-sizing: border-box;
 }
 
-/* Some default document settings. */
 body {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	line-height: 30px;
 	text-align: left;
-	/* Set width to 1200 instead of 960 for better layout (in my humble opinion). */
-	width: 1200px;
+	width: 960px;
 }
 
 header	{
@@ -60,7 +57,7 @@ li {
 
 li.border {
 	border-right: 1px solid #dddddd;
-	height: 5px;
+	height: 15px;
 	padding: 10px;
 }
 
@@ -91,13 +88,6 @@ textarea {
     border-color: #dddddd;
     border-style: solid;
     border-width: thin;
-}
-
-/* Need to use a pseudoclass to control placeholder. */
-input,
-textarea,
-input::-webkit-input-placeholder {
-    font-size: 16px;
 }
 
 footer {
@@ -140,7 +130,7 @@ footer {
 .project {
 	float: left;
 	position: relative;
-	top:	-10px;
+	top: -10px;
 	width: 100%;
 }
 
@@ -164,16 +154,6 @@ footer {
 	border: none;
 	position: relative;
 	top: -8px;
-}
-
-#social-links {
-	float: right;
-	padding: 10px;
-	width: 270px;
-	top: 30px;
-	text-align: center;
-	margin-right: 125px;
-	margin-top: 30px
 }
 
 #main-bio,
@@ -206,6 +186,6 @@ footer {
 }
 
 #project-portfolio {
-	padding: 15px;
+	padding: 5px;
 	height: 500px;
 }
