@@ -60,6 +60,7 @@ li {
 
 li.border {
 	border-right: 1px solid #dddddd;
+	height: 5px;
 	padding: 10px;
 }
 
