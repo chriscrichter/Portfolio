@@ -8,6 +8,7 @@ body {
 	line-height: 30px;
 	text-align: left;
 	width: 960px;
+	background-image: url("../images/background.png");
 }
 
 header	{
@@ -18,7 +19,6 @@ header	{
 	height: 100%;
 	width: 270px;
 	margin-left: 125px;
-	margin-bottom: 0;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	font-size: 1.5em;
@@ -32,6 +32,8 @@ h3	{
 	color: #4aaaa5;
 	border-bottom:	3px solid #dddddd;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: bold;
 	margin-top: 1px;
 	padding-bottom: 3px;
 }
@@ -40,13 +42,13 @@ nav	{
 	width: 270px;
 	float: right;
 	text-align: center;
-	margin-right: 125px;
+	margin-right: 95px;
 }
 
 ul {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 3px;
 }
 
 li {
@@ -57,7 +59,6 @@ li {
 
 li.border {
 	border-right: 1px solid #dddddd;
-	height: 15px;
 	padding: 10px;
 }
 
@@ -108,6 +109,7 @@ footer {
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
 	height: 60px;
+	width: 960px;
 }
 
 .main-container {
@@ -156,18 +158,18 @@ footer {
 	top: -8px;
 }
 
-#main-bio,
-#contact-form,
-#project-portfolio {
+#bio-page,
+#contact-page,
+#portfolio-page {
 	position: relative;
 	text-align: left;
-	width: 650px;
+	width: 830px;
 	top: 30px;
 	margin-left: 125px;
 	margin-bottom: 50px;
 }
 
-#main-bio {
+#bio-page {
 	height: auto;
 	padding: 20px;
 }
@@ -180,12 +182,12 @@ footer {
 	height: 200px;
 }
 
-#contact-form {
+#contact-page {
 	padding: 20px;
 	height: 500px;
 }
 
-#project-portfolio {
-	padding: 5px;
+#portfolio-page {
+	padding: 20px;
 	height: 500px;
 }
