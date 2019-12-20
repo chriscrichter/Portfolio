@@ -42,7 +42,7 @@ nav	{
 	width: 270px;
 	float: right;
 	text-align: center;
-	margin-right: 95px;
+	margin-right: 75px;
 }
 
 ul {
@@ -105,6 +105,47 @@ footer {
 	text-align: center;
 }
 
+#bio-page {
+	position: relative;
+	text-align: left;
+	height: auto;
+	padding: 20px;	
+	width: 830px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+}
+
+#bio-image {
+	clear: both;
+	float: left;
+	margin-right: 20px;
+	width: 180px;
+	height: 200px;
+}
+
+#contact-page {
+	position: relative;
+	text-align: left;
+	padding: 20px;
+	height: 500px;
+	width: 830px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+}
+
+#portfolio-page {
+	position: relative;
+	text-align: left;
+	padding: 20px;
+	height: 500px;
+	width: 830px;
+	top: 30px;
+	margin-left: 125px;
+	margin-bottom: 50px;
+}
+
 .header-container {
 	border-bottom: 2px solid #cccccc;
 	background-color: #ffffff;
@@ -156,38 +197,4 @@ footer {
 	border: none;
 	position: relative;
 	top: -8px;
-}
-
-#bio-page,
-#contact-page,
-#portfolio-page {
-	position: relative;
-	text-align: left;
-	width: 830px;
-	top: 30px;
-	margin-left: 125px;
-	margin-bottom: 50px;
-}
-
-#bio-page {
-	height: auto;
-	padding: 20px;
-}
-
-#bio-image {
-	clear: both;
-	float: left;
-	margin-right: 20px;
-	width: 200px;
-	height: 200px;
-}
-
-#contact-page {
-	padding: 20px;
-	height: 500px;
-}
-
-#portfolio-page {
-	padding: 20px;
-	height: 500px;
 }
