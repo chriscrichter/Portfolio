@@ -11,6 +11,7 @@ The site is simple right now consisting of an About Me page and a Portfolio and 
 
 As my first assignment in the Columbia Univeristy Engineering Coding Bootcamp, I was given strict instructions on how to build the site.
 
+
 ## My GitHub page
 
 My GitHub page can be found here:
